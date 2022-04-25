@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #141d26;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+}
+.li{
+    padding-right: 1em;
+}
+.li a{
+    color: #ffffff;
+}
