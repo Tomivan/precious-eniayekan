@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Nav from '../components/nav';
-import styles from '../styles/tsi.module.css';
-import RevenyImage from '../assets/images/reveny.jpg';
+import styles from '../styles/revney.module.css';
+import RevneyImage from '../assets/images/reveny.jpg';
 
-const Reveny = () => {
+const Revney = () => {
   return (
     <div className={styles.container}>
         <Head>
@@ -15,7 +15,9 @@ const Reveny = () => {
 
       <main className={styles.main}>
           <Nav />
-          <Image src={RevenyImage} alt='' height={400} width={400} className={styles.image}/>
+          <div className={styles.image}>
+              <Image src={RevneyImage} alt='' height={500} width={700} />
+          </div>
           <div className={styles.welcome}>
           </div>
       </main>
@@ -23,4 +25,4 @@ const Reveny = () => {
   )
 }
 
-export default Reveny;
+export default Revney;

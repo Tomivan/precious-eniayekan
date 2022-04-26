@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import Nav from '../components/nav';
-import styles from '../styles/tsi.module.css';
-import MarketingImage from '../assets/images/propfunds.jpg';
+import styles from '../styles/marketing.module.css';
+import MarketingImage from '../assets/images/techsis.jpg';
 
 const Marketing = () => {
   return (
@@ -15,7 +15,9 @@ const Marketing = () => {
 
       <main className={styles.main}>
           <Nav />
-          <Image src={MarketingImage} alt='' height={400} width={400} className={styles.image}/>
+          <div className={styles.image}>
+              <NextImage src={MarketingImage} alt='' height={500} width={500}/>
+          </div>
           <div className={styles.welcome}>
           </div>
       </main>

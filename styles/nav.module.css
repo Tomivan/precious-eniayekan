@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 1em;
     background: #141d26;
+    /* border-bottom: 1px solid #3ebf0f; */
 }
 .ul{
     display: flex;

@@ -15,7 +15,9 @@ const Tsi = () => {
 
       <main className={styles.main}>
           <Nav />
-          <Image src={TSIImage} alt='' height={400} width={400} className={styles.image}/>
+          <div className={styles.image}>
+              <Image src={TSIImage} alt='' height={500} width={500} className={styles.image}/>
+          </div>  
           <div className={styles.welcome}>
           </div>
       </main>

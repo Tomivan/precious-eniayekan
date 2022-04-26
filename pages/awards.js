@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Nav from '../components/nav';
-import styles from '../styles/tsi.module.css';
-import AwardImage from '../assets/images/tsi.jpg';
+import styles from '../styles/awards.module.css';
+import AwardImage from '../assets/images/award.jpg';
 
 const Awards = () => {
   return (
@@ -15,7 +15,9 @@ const Awards = () => {
 
       <main className={styles.main}>
           <Nav />
-          <Image src={AlphaImage} alt='' height={400} width={400} className={styles.image}/>
+          <div className={styles.image}>
+              <Image src={AwardImage} alt='' height={400} width={600} />
+          </div>
           <div className={styles.welcome}>
           </div>
       </main>

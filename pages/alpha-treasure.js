@@ -15,7 +15,9 @@ const AlphaTreasure = () => {
 
       <main className={styles.main}>
           <Nav />
-          <Image src={AlphaImage} alt='' height={400} width={400} className={styles.image}/>
+          <div className={styles.image}>
+              <Image src={AlphaImage} alt='' height={500} width={500}/>
+          </div>
           <div className={styles.welcome}>
           </div>
       </main>

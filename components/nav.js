@@ -12,7 +12,7 @@ const Nav = () => {
                     <Link href="/">Home</Link>
                 </li>
                 <li className={navStyles.li}>
-                    <Link href="/raveny">Raveny</Link>
+                    <Link href="/revney">Revney</Link>
                 </li>
                 <li className={navStyles.li}>
                     <Link href="/marketing">Marketing</Link>
@@ -21,7 +21,7 @@ const Nav = () => {
                     <Link href="/tsi">TSI</Link>
                 </li>
                 <li className={navStyles.li}>
-                    <Link href="/alpha-treasures">Alpha Treasures</Link>
+                    <Link href="/alpha-treasure">Alpha Treasures</Link>
                 </li>
                 <li className={navStyles.li}>
                     <Link href="/awards">Awards</Link>
